@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João And Gabriella | IFMS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="joao.html">João Pedro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown link
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div> -->
+        </div>
+    </nav>
+    
+    <!-- menu Home -->
+    <div id="home">
+        <main class="d-flex row justify-content-center text-light">
+            <!-- Horarios -->
+            <section class="w-75 mt-5">
+                <div class="titulo">
+                    <h2>Horários</h2>
+                    <hr>
+                </div>
+                <!-- horario -->
+                <div class="card text-cente bg-dark border border-light">
+                    <div class="card-header bg-dark border border-light">
+                        <ul class="nav nav-tabs card-header-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link active bg-primary text-light" aria-current="true">IFMS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled text-secondary" aria-disabled="true">ITA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled text-secondary" aria-disabled="true">Cursos</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="card-body text-light">
+                        <h5 class="card-title">Horários</h5>
+                        <p class="card-text">Todos os horários estão organizados em ordem, com um resumo e descrição
+                            detalhada, além de notas para atualizar.</p>
+                        <a onclick="display('calendarioIFMS')" class="btn btn-outline-light">Acessar</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- horarios -->
+    <div id="horarios" class="b">
+        <main class="d-flex row justify-content-center text-light">
+            <!-- ifms -->
+            <section class="w-75 mt-5">
+                <a href="joao.html" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">
+                    <i class="bi bi-arrow-left text-light"></i>
+                    <span class="text-light">Voltar</span>
+                </a>
+                <div class="titulo">
+                    <h2><span class="text-success">IFMS</span> - 3° Semeste</h2>
+                    <hr>
+                </div>
+                <!-- Tabela Matutina -->
+                <h4 class="text-center">Horário Matutino</h4>
+                <div class="table-responsive mb-5">
+                    <table class="table table-dark table-bordered table-striped">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Hora</th>
+                                <th>Segunda</th>
+                                <th>Terça</th>
+                                <th>Quarta</th>
+                                <th>Quinta</th>
+                                <th>Sexta</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>07:00 - 7:45</td>
+                                <td></td>
+                                <td></td>
+                                <td>HISTÓRIA 4</td>
+                                <td></td>
+                                <td>ESPANHOL TÉCNICO</td>
+                            </tr>
+                            <tr>
+                                <td>07:45 - 08:30</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>ESPANHOL TÉCNICO</td>
+                            </tr>
+                            <tr>
+                                <td>08:30 - 09:15</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>09:35 - 10:20</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>HISTÓRIA 4</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>10:20 - 11:05</td>
+                                <td></td>
+                                <td></td>
+                                <td>EMPREENDEDORISMO E INOVAÇÃO</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>11:05 - 11:50</td>
+                                <td></td>
+                                <td></td>
+                                <td>EMPREENDEDORISMO E INOVAÇÃO</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Tabela Vespertina -->
+                <h4 class="text-center">Horário Vespertino</h4>
+                <div class="table-responsive mb-5">
+                    <table class="table table-dark table-bordered table-striped">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Hora</th>
+                                <th>Segunda</th>
+                                <th>Terça</th>
+                                <th>Quarta</th>
+                                <th>Quinta</th>
+                                <th>Sexta</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>13:00 - 13:45</td>
+                                <td>Matemática 4</td>
+                                <td>Server-side</td>
+                                <td>Ed. Física 4</td>
+                                <td>Biologia 2</td>
+                                <td>Redes de Comp.</td>
+                            </tr>
+                            <tr>
+                                <td>13:45 - 14:30</td>
+                                <td>Matemática 4</td>
+                                <td>Server-side</td>
+                                <td>Ed. Física 4</td>
+                                <td>Biologia 2</td>
+                                <td>Redes de Comp.</td>
+                            </tr>
+                            <tr>
+                                <td>14:30 - 15:15</td>
+                                <td>BD 1</td>
+                                <td>Geografia 4</td>
+                                <td>APSW 1</td>
+                                <td>Química 3</td>
+                                <td>Sociologia 4</td>
+                            </tr>
+                            <tr>
+                                <td>15:35 - 16:20</td>
+                                <td>Sociologia 4</td>
+                                <td>Geografia 4</td>
+                                <td>APSW 1</td>
+                                <td>Química 3</td>
+                                <td>Filosofia 4</td>
+                            </tr>
+                            <tr>
+                                <td>16:20 - 17:05</td>
+                                <td>Física 4</td>
+                                <td>Filosofia 4</td>
+                                <td>Matemática 4</td>
+                                <td>LPLB 4</td>
+                                <td>História 2</td>
+                            </tr>
+                            <tr>
+                                <td>17:05 - 17:50</td>
+                                <td>Física 4</td>
+                                <td>Química 3</td>
+                                <td>LEM 4</td>
+                                <td>LPLB 4</td>
+                                <td>História 2</td>
+                            </tr>
+                            <tr>
+                                <td>17:50 - 18:35</td>
+                                <td>Sociologia 4</td>
+                                <td>LEM 4</td>
+                                <td>LPLB 4</td>
+                                <td>Server-side</td>
+                                <td>Física 4</td>
+                            </tr>
+                            <tr>
+                                <td>18:35 - 19:20</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>Server-side</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Tabela Noturna -->
+                <h4 class="text-center">Horário Noturno</h4>
+                <div class="table-responsive mb-5">
+                    <table class="table table-dark table-bordered table-striped">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Hora</th>
+                                <th>Segunda</th>
+                                <th>Terça</th>
+                                <th>Quarta</th>
+                                <th>Quinta</th>
+                                <th>Sexta</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>19:30 - 20:15</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>20:15 - 21:20</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>21:20 - 22:30</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>22:30 - 23:00</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+
+
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="./joao.html" class="nav-link px-2 text-light">Home</a></li>
+                <li class="nav-item"><a href="./gabriella.html" class="nav-link px-2 text-light">Gabriella de Lima</a>
+                </li>
+                <li class="nav-item"><a href="./joao.html" class="nav-link px-2 text-light">João Pedro Ferraz</a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    <p class="text-center text-light">© 2024 João Pedro Cristaldo Ferraz - Desenvolvedor Front-End / Back-End - Eu te
+        amo Gabriella ♥</p>
+    <script src="./assets/js/home.js"></script>
+    <script src="./assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/bootstrap/popper.min.js"></script>
+</body>
+
+</html>

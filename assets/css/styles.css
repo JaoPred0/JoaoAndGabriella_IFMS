@@ -1,0 +1,58 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+.a {
+    display: block;
+}
+.b {
+    display: none;
+}
+.progress-container {
+    width: 80%;
+    max-width: 500px;
+    height: 30px;
+    background-color: #333333;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    transition: width 0.1s ease;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ffffff !important;
+    font-weight: 800 !important;
+}
+
+#loadingText {
+    font-size: 1.2em;
+    color: #cccccc;
+}
+
+.btn-custom {
+    padding: 10px 170px;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border: 3px solid #fff; /* Altere a borda para branco */
+    background-color: transparent;
+    color: #fff; /* Altere a cor do texto para branco */
+    transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+    border-radius: 0;
+    border: 3px solid #000; /* Altere a borda para verde ao passar o mouse */
+    background-color: #fff;
+    color: #000; /* Altere a cor do texto para verde ao passar o mouse */
+}
+
+
+
