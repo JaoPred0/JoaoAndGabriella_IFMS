@@ -8,6 +8,92 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <style>
+        /* Estilo responsivo para o título */
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+        }
+
+        /* Barra de progresso responsiva */
+        .progress-container {
+            width: 100%;
+            max-width: 600px;
+            height: 30px;
+            background-color: #f3f3f3;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            width: 0%;
+            transition: width 0.5s ease;
+        }
+
+        /* Texto de carregamento responsivo */
+        #loadingText {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        /* Media Queries para responsividade */
+        @media (max-width: 1200px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            #loadingText {
+                font-size: 1.25rem;
+            }
+
+            .progress-container {
+                height: 25px;
+            }
+        }
+
+        @media (max-width: 992px) {
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            #loadingText {
+                font-size: 1.15rem;
+            }
+
+            .progress-container {
+                height: 20px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            #loadingText {
+                font-size: 1rem;
+            }
+
+            .progress-container {
+                height: 18px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            h1 {
+                font-size: 1.25rem;
+            }
+
+            #loadingText {
+                font-size: 0.9rem;
+            }
+
+            .progress-container {
+                height: 15px;
+            }
+        }
+    </style>
 </head>
 
 <body>
